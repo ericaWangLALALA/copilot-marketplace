@@ -1,0 +1,26 @@
+{
+  "name": "demo-copilot-plugin",
+  "displayName": "Demo Copilot Plugin",
+  "version": "0.1.0",
+  "description": "Enterprise shared skills library for GitHub Copilot",
+  "publisher": "your-org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericaWangLALALA/copilot-marketplace"
+  },
+  "entry": {
+    "skills": "./skills",
+    "instructions": "./instructions",
+    "agents": "./agents",
+    "hooks": "./hooks",
+    "mcp": "./mcp/servers.json"
+  },
+  "capabilities": [
+    "skills",
+    "instructions",
+    "agents",
+    "hooks",
+    "mcp"
+  ],
+  "license": "MIT"
+}
