@@ -11,7 +11,7 @@ A reusable enterprise plugin package for GitHub Copilot. It bundles:
 ## Install In Any Project
 
 ```bash
-copilot plugin install https://github.com/ericaWangLALALA/copilot-marketplace
+copilot plugin install ericaWangLALALA/copilot-marketplace
 ```
 
 Or if published to a registry/alias:
@@ -52,5 +52,6 @@ copilot plugin install your-org/company-copilot-plugin
 ## Notes
 
 - Repository URL is set to `https://github.com/ericaWangLALALA/copilot-marketplace`.
+- Prefer `owner/repo` install over full URL for a shorter command namespace.
 - Update `mcp/servers.json` with your real MCP server command.
 - Keep skills small and composable.

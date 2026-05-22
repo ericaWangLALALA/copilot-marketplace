@@ -1,6 +1,6 @@
 {
-  "name": "demo-copilot-plugin",
-  "displayName": "Demo Copilot Plugin",
+  "name": "skillkit",
+  "displayName": "SkillKit",
   "version": "0.1.0",
   "description": "Enterprise shared skills library for GitHub Copilot",
   "publisher": "your-org",
